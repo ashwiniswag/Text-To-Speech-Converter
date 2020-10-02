@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     }
 //                    Log.i("TTS", "Initialization success.");
                 } else {
-                    Toast.makeText(getApplicationContext(), "TTS Initialization failed!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "TTS Initialization failed!!!!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
